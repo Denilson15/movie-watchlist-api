@@ -24,7 +24,7 @@ header{
     background-blend-mode: darken;
     background-size: cover;
     background-position: center 25%;
-    min-height: 35vh;
+    min-height: 15vh;
     position: relative;
 }
 
@@ -61,6 +61,7 @@ header a:hover{
     border-radius: 4px 0px 0px 4px;
     color: #A5A5A5;
     font-size: inherit;
+    width: 270px;
 }
 
 .search button{
@@ -81,11 +82,142 @@ header a:hover{
     color: #2E2E2F;
     font-size: 1.125rem;
     font-weight: 700;
-    min-height: 65vh;
+    min-height: 70vh;
     margin-top: 1rem;
 }
 
 .icon{
     width: 25%;
     max-width: 260px;
+}
+
+.movies{
+    border-bottom: 1.5px solid #2C2C2C;
+}
+
+.movies, .movie-wrapper, .movie-title-rating, .movie-runtime-genre, .btn-wrapper, .rating{
+    display: flex;
+}
+
+.movie-wrapper,.movie-description{
+    flex-direction: column;
+}
+
+.movie-wrapper{
+    max-width: 300px;
+    min-width: 300px;
+}
+
+.movie-title{
+    font-size: 1.125rem;
+    color: #FFFFFF;
+}
+
+.movies{
+    flex-direction: column;
+    margin: 0 auto 1.5rem auto;
+    height: 580px;
+    padding: 1.5rem;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 1000px; */
+}
+
+.movie-poster{
+    align-self: center;
+    height: 100%;
+    width: 100%;
+    max-width: 270px;
+}
+
+
+.movie-title-rating{
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.movie-runtime-genre{
+    justify-content: flex-start;
+    gap: 2.5rem;
+    align-items: center;
+    font-size: 0.75rem;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.movie-description{
+    font-size: 0.875rem;
+    color: #A5A5A5;
+    font-weight: 400;
+}
+
+.btn-wrapper{
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.watchlist-btn, .remove-btn{
+    border-radius: 50%;
+    border: none;
+    height: 1.1125rem;
+    width: 1.1125rem;
+    background-color: #FFFFFF;
+    font-size: 0.75rem;
+    font-weight: 800;
+}
+
+.btn-wrapper:focus-within{
+    border: 2px solid #787878;
+}
+
+.result-not-found{
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #787878;
+}
+
+.rating{
+    height: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #FFFFFF
+}
+
+@media (min-width: 480px){
+    .movies{
+        flex-direction: row;
+        height: 300px;
+    }
+    .movie-poster{
+        max-height: 225px;
+        width: auto;
+    }
+
+    header{
+        min-height: 30vh;
+    }
+
+    .movie-wrapper{
+        max-width: 800px;
+        min-width: 800px;
+    }
+
+    
+    .search input{
+        width: 370px;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    header a{
+        font-size: 1.5rem;
+    }
 }
