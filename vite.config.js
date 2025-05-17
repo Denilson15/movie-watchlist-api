@@ -6,7 +6,8 @@ export default defineConfig({
     viteStaticCopy({
       targets: [
         { src: 'watchlist.html', dest: '.' },
-		{ src: 'index.css', dest: '.' }
+		{ src: 'index.css', dest: '.' },
+		{ src: 'images', dest: 'images' } 
       ]
     })
   ]

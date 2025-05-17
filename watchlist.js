@@ -1,8 +1,8 @@
 const apikey = import.meta.env.VITE_API_KEY;
 const watchListContainer = document.getElementById("watchlist-arr")
-const watchList = JSON.parse(localStorage.getItem("watchlist"))
 
 async function renderPage(){
+    const watchList = JSON.parse(localStorage.getItem("watchlist"))
     let watchListHtml = "";
     for (let movie of watchList){
         const res = await fetch(`https://www.omdbapi.com/?apikey=${apikey}&i=${movie}`);
