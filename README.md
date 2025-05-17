@@ -1,19 +1,36 @@
-# Getting Started
-Install the dependencies and run the project
+# 🎬 Movie Watchlist Search
+
+A vanilla JavaScript movie search and watchlist manager powered by the [OMDb API](https://www.omdbapi.com/). No frameworks. No build step. Pure static deployment.
+
+> 💡 No AI was used in the development of this project. AI tools were utilized solely for documentation purposes, such as generating this README. I believe in building a strong foundation in programming while also learning how to effectively use AI tools as part of a modern developer workflow.
+
+## ✨ Features
+
+- 🔍 Search movies by title using the OMDb API
+- ➕ Add movies to your personal watchlist
+- ➖ Remove movies from your watchlist
+- 💾 Persistent watchlist using `localStorage`
+- 🎨 Responsive design with CSS styling
+
+## 🌐 Live Demo
+
+Check out the live version here: [https://movie-watchlist-search.netlify.app/](https://movie-watchlist-search.netlify.app/)
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- [OMDb API](https://www.omdbapi.com/)
+
+## 📁 Project Structure
 ```
-npm install
-npm start
+movie-watchlist-api/
+├── index.html // Search page
+├── watchlist.html // Watchlist page
+├── index.js // Search page logic
+├── watchlist.js // Watchlist page logic
+├── index.css // Styles
+└── images/ // Icons and images
 ```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
-
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!

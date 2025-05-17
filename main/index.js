@@ -1,8 +1,8 @@
-const apikey = import.meta.env.VITE_API_KEY;
+const apikey = "a861c2bc";
 const searchInput = document.getElementById("search-bar")
 const searchBtn = document.getElementById("search-btn")
 const searchResults = document.getElementById("results")
-let watchList = JSON.parse(localStorage.getItem("watchlist"));
+let watchList = JSON.parse(localStorage.getItem("watchlist")) || [];
 
 searchBtn.addEventListener("click", getData);
 

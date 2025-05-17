@@ -88,7 +88,7 @@ header a:hover{
 
 .icon{
     width: 25%;
-    max-width: 260px;
+    max-width: 200px;
 }
 
 .movies{
@@ -219,5 +219,9 @@ header a:hover{
 
     header a{
         font-size: 1.5rem;
+    }
+
+    span{
+        font-size: 2.5rem;
     }
 }
