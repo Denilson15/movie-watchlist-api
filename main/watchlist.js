@@ -1,4 +1,4 @@
-const apikey = import.meta.env.VITE_API_KEY;
+const apikey = "a861c2bc";
 const watchListContainer = document.getElementById("watchlist-arr")
 
 async function renderPage(){
