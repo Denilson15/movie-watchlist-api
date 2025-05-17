@@ -5,7 +5,8 @@ export default defineConfig({
   plugins: [
     viteStaticCopy({
       targets: [
-        { src: 'watchlist.html', dest: '.' }
+        { src: 'watchlist.html', dest: '.' },
+		{ src: 'index.css', dest: '.' }
       ]
     })
   ]
