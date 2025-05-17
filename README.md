@@ -1,6 +1,6 @@
 # 🎬 Movie Watchlist Search
 
-A vanilla JavaScript movie search and watchlist manager powered by the [OMDb API](https://www.omdbapi.com/). No frameworks. No build step. Pure static deployment.
+A fully functional movie search and watchlist manager built with **vanilla JavaScript**, powered by the [OMDb API](https://www.omdbapi.com/). This project demonstrates how to build a responsive, interactive web app **without any frameworks or build tools** — just HTML, CSS, and JavaScript.
 
 > 💡 No AI was used in the development of this project. AI tools were utilized solely for documentation purposes, such as generating this README. I believe in building a strong foundation in programming while also learning how to effectively use AI tools as part of a modern developer workflow.
 
