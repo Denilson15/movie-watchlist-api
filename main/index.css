@@ -125,10 +125,11 @@ header a:hover{
 }
 
 .movie-poster{
-    align-self: center;
+    text-align: center;
     height: 100%;
     width: 100%;
-    max-width: 270px;
+    max-width: 255px;
+    max-height: 225px;
 }
 
 
